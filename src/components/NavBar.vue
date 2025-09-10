@@ -11,7 +11,7 @@ import SideBar from './SideBar.vue';
                 <h1>To-Do App</h1>
             </div>
             <div class="bg-red-400 p-2 rounded-lg px-5 text-white font-semibold text-lg absolute right-0 mr-2">
-                <button>Log Out</button>
+                <button><RouterLink to="/">Log Out</RouterLink> </button>
             </div>
         </div>
 
